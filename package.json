@@ -1,0 +1,19 @@
+{
+  "name": "neural-style-transfer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.22.0",
+    "@tensorflow/tfjs-node-gpu": "^4.22.0"
+  },
+  "devDependencies": {
+    "vite": "^4.5.9"
+  }
+}
